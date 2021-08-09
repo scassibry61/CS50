@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="advanced-search.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="search-index.html" title="Go to Google Home">
+			<img <img src="googlelogo.png" alt="Go to Google Home" class="google-img">
+		</a>
+    </div>
+    
+	<div class="appbar">
+		<label style="margin-left: 10px"> Advanced Search</label>
+	</div>
+	<hr>
+	<div class="container">
+        <form action="https://www.google.com/search">
+        <div class="left-column">
+            <div class="left-header-block">
+				<div class="text">
+					Find pages with..
+				</div>	
+            </div>
+            <div class="middle-column">
+				&nbsp; 
+			</div>
+			<div class="right-header-block">
+				<div class="text">
+					 To do this in the search box
+				</div>
+			</div>	
+		</div>	
+		<div class="left-column">
+			<div class="reset">
+				<div class="left-detail-block">
+					<div class="text">
+						<label for="entry1"> all these words:</label>
+					</div>	
+				</div>
+				<div class="middle-column">
+					<div class="input-box">
+						<input class="input-text" value="" autofocus="autofocus" id="entry1" name="as_q" type="text">
+					</div>
+				</div>
+				<div class="right-detail-block">
+					<div class="text">
+						 Type the important words: 
+						 <span class="monocase"> tri-colour rat terrier</span>
+					</div>
+				</div>
+			</div>
+			<div class="reset">
+				<div class="left-detail-block">
+					<div class="text">
+						<label for="entry2"> this exact word or phrase:</label>
+					</div>	
+				</div>
+				<div class="middle-column">
+					<div class="input-box">
+						<input class="input-text" value="" autofocus="autofocus" id="entry2" name="as_epq" type="text">
+					</div>
+				</div>
+				<div class="right-detail-block">
+					<div class="text">
+						 Put exact words in quotes: 
+						 <span class="monocase"> "rat terrier"</span>
+					</div>
+				</div>
+			</div>
+			<div class="reset">
+				<div class="left-detail-block">
+					<div class="text">
+						<label for="entry3"> any of these words:</label>
+					</div>	
+				</div>
+				<div class="middle-column">
+					<div class="input-box">
+						<input class="input-text" value="" autofocus="autofocus" id="entry3" name="as_oq" type="text">
+					</div>
+				</div>
+				<div class="right-detail-block">
+					<div class="text">
+						 Type OR between all the words you want: 
+						 <span class="monocase"> miniature OR standard</span>
+					</div>
+				</div>
+			</div>
+			<div class="reset">
+				<div class="left-detail-block">
+					<div class="text">
+						<label for="entry4"> none of these words:</label>
+					</div>	
+				</div>
+				<div class="middle-column">
+					<div class="input-box">
+						<input class="input-text" value="" autofocus="autofocus" id="entry4" name="as_eq" type="text">
+					</div>
+				</div>
+				<div class="right-detail-block">
+					<div class="text">
+						 Put a minus sign just before words you don't want: 
+						 <span class="monocase"> -rodent, -"Jack Russell"</span>
+					</div>
+				</div>
+			</div>
+			<div class="reset">
+				<div class="left-detail-block">
+				</div>
+				<div class="middle-column" style="text-align:right">
+					<input class="adv-search-button" style="user-select:none;line-height:100%;height:30px;min-width:120px" value="Advanced Search" type="submit">
+				</div>
+				<div class="right-detail-block"> </div>
+			</div>
+		</div>
+		</form>
+	</div>
+</body>
+</html>
